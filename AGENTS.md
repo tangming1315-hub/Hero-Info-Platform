@@ -70,6 +70,8 @@
 
 ## 7. Git 协作流程
 
+> **提交操作前必读**：[docs/guides/git-submit-guide.md](docs/guides/git-submit-guide.md) —— 软件安装、首次接入、提交规范、中文乱码等已知坑的完整引导（新人与 AI 通用）。
+
 ### 分支策略
 - `main`：主干，受保护，只接受 PR 合入
 - 功能分支：`feature/<简短描述>`，如 `feature/hero-list-page`
