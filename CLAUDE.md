@@ -12,9 +12,10 @@
    # TODO: lint / test 命令
    ```
 5. **安全红线**：禁止写入密钥、凭据、内网地址；敏感配置走环境变量
-6. 提交走 `feature/`、`fix/` 分支 + PR，禁止直推 `main`；提交信息格式 `<type>: <中文描述>`
-7. AI 生成内容在 PR 中必须显形（填 PR 模板的「AI 参与说明」）
+6. 提交走 `feature/`、`fix/` 分支 + MR（工蜂 Merge Request），禁止直推 `main`；提交信息格式 `<type>: <中文描述>`；**committer 邮箱必须是公司邮箱 @tencent.com**（工蜂钩子校验）
+7. AI 生成内容在 MR 中必须显形（填 MR 模板的「AI 参与说明」）
 8. 踩过的坑与验证过的结论，沉淀回 `AGENTS.md` 或 `docs/`，不得只留在会话里
+9. **Agent 间沟通走 [Agent Board](docs/agent-board/README.md)**：开工前看板收信，跨模块改动后到相关线程留言，格式按 `docs/agent-board/TEMPLATE.md`
 
 ## 项目速览
 
